@@ -1,13 +1,15 @@
 package com.macro.disk.user.service.impl;
 
 
+
+
 import com.macro.disk.user.bean.Page;
 import com.macro.disk.user.bean.SessionUserBean;
 import com.macro.disk.user.bean.TreeJson;
 import com.macro.disk.user.bean.UserBean;
 import com.macro.disk.user.service.UserService;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Component;
-import org.springframework.util.StringUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,8 +22,7 @@ public class UserServiceImpl implements UserService {
 	public Page<UserBean> findUserPageList(Integer page, Integer limit, String username, String nickname) {
 		Page<UserBean> p=new Page<UserBean>();
 		List<UserBean> rows=new ArrayList<UserBean>();
-		
-		UserBean bean1=new UserBean();
+		UserBean bean1 = new UserBean();
 		bean1.setId("1");
 		bean1.setNickname("超级管理员");
 		bean1.setUsername("admin");
