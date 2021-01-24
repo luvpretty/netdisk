@@ -12,6 +12,49 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>netdisk-service-provider</name>
 	<description>netdisk-service-provider project for Spring Boot</description>
+	<packaging>jar</packaging>
 
+	<dependencies>
+		<!-- web -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<!-- 数据库相关 -->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>druid</artifactId>
+			<version>1.0.18</version>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		<!-- 自定义的依赖 -->
+		<dependency>
+			<groupId>com.macro</groupId>
+			<artifactId>netdisk-service-api</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.macro</groupId>
+			<artifactId>utils-common</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.macro</groupId>
+			<artifactId>utils-filestore</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.macro</groupId>
+			<artifactId>utils-filesearch</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
 
 </project>
