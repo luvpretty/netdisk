@@ -23,6 +23,7 @@
 		<module>netdisk-web-perpc</module>
 		<module>utils-common</module>
 		<module>utils-filesearch</module>
+		<module>utils-filestore</module>
 	</modules>
 
 	<properties>
