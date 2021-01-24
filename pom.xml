@@ -21,6 +21,7 @@
 		<module>netdisk-user-provider</module>
 		<module>netdisk-web-manage</module>
 		<module>netdisk-web-perpc</module>
+		<module>utils-common</module>
 	</modules>
 
 	<properties>
