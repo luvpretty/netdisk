@@ -13,5 +13,18 @@
 	<name>netdisk-web-perpc</name>
 	<description>netdisk-web-perpc project for Spring Boot</description>
 
+	<dependencies>
+		<!-- web -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<!-- 依赖本工程的接口 -->
+		<dependency>
+			<groupId>com.macro</groupId>
+			<artifactId>netdisk-service-api</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
 
 </project>
