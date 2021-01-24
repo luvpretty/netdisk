@@ -1,0 +1,19 @@
+server:
+  port: 8012
+
+
+spring:
+  profiles:
+    active:
+      - dev
+  application:
+    name: netdisk-web-perpc
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+      config:
+        server-addr: localhost:8848
+        file-extension: yaml
+
+
