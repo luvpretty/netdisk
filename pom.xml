@@ -19,6 +19,7 @@
 		<module>netdisk-user-api</module>
 		<module>netdisk-service-provider</module>
 		<module>netdisk-user-provider</module>
+		<module>netdisk-web-manage</module>
 	</modules>
 
 	<properties>
