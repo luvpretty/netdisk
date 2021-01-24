@@ -8,10 +8,10 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<groupId>com.macro</groupId>
-	<artifactId>netdisk-service-provider</artifactId>
+	<artifactId>netdisk-user-provider</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>netdisk-service-provider</name>
-	<description>netdisk-service-provider project for Spring Boot</description>
+	<name>netdisk-user-provider</name>
+	<description>netdisk-user-provider project for Spring Boot</description>
 
 
 </project>
