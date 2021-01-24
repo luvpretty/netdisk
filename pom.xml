@@ -22,6 +22,7 @@
 		<module>netdisk-web-manage</module>
 		<module>netdisk-web-perpc</module>
 		<module>utils-common</module>
+		<module>utils-filesearch</module>
 	</modules>
 
 	<properties>
